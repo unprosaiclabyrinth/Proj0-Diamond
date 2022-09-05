@@ -6,16 +6,17 @@ const b = 7 * t;
 const c = D / 2;
 
 let i = 0;
+let blue = true;
 
 function setup() 
 {
     createCanvas(D, D);
+    frameRate(30);
     background(0);
 }
 
 function draw() 
 {
-    let blue = true;
     if (blue) {
         stroke(c - t - i, i, 255);
         blue = false;
