@@ -2,4 +2,4 @@
 
 Playing around with `p5.js` library.
 
-Testing out math mode: $$-5%, y = hello$$
+Testing out math mode: $$-5%$$
